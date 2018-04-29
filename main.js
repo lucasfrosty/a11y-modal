@@ -1,4 +1,5 @@
 const TAB = 9;
+const ESC = 27;
 
 const toggleModalButton = document.querySelector('#toggle-modal');
 const modal = document.querySelector('#modal');
@@ -20,6 +21,8 @@ function keyDownEventListenerCallback(e) {
       e.preventDefault();
       firstTabStop.focus();
     }
+  } else if (e.keyCode === ESC) {
+    closeModal();
   }
 }
 
