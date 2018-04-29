@@ -12,3 +12,4 @@ This is an implementation of a modal that is always focused when it is opened, p
 - [x] If the user is on the first element and press shift + tab, focus to the last one
 - [x] If the user press esc, close the modal
 - [x] If the user clicks on the background, also close the modal
+- [ ] Create the React version of it
